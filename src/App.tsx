@@ -1,20 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import {
   BookOpen,
   CheckCircle2,
   XCircle,
-  HelpCircle,
   BarChart3,
   Flame,
   Award,
   RefreshCw,
-  Search,
   Filter,
   Bookmark,
   Sparkles,
   ChevronRight,
-  ArrowLeft,
-  Clock,
   Layers,
   FileText,
   Copy,
@@ -38,13 +34,7 @@ interface Question {
   difficulty: 'Fácil' | 'Média' | 'Difícil';
 }
 
-interface UserAnswer {
-  questionId: number;
-  selectedOption: number;
-  isCorrect: boolean;
-}
-
-// Initial Question Bank
+// Initial Question Bank - Mapeado para todas as disciplinas do Edital SEFAZ-SC (Edital 01/2026)
 const QUESTION_BANK: Question[] = [
   {
     id: 1,
@@ -71,7 +61,7 @@ const QUESTION_BANK: Question[] = [
     difficulty: 'Difícil',
     statement: 'A respeito do Processo Administrativo Fiscal no Estado de Santa Catarina (Lei nº 3.938/1966), a consulta sobre a aplicação da legislação tributária estadual formulada pelo sujeito passivo:',
     options: [
-      'A) suspended formalmente a cobrança de débitos já inscritos em Dívida Ativa.',
+      'A) suspende formalmente a cobrança de débitos já inscritos em Dívida Ativa.',
       'B) impede a instauração de procedimento fiscal contra o consulente relativamente à matéria consultada, enquanto não respondida.',
       'C) pode ser apresentada verbalmente perante a repartição fiscal do domicílio do contribuinte.',
       'D) produz efeitos normativos erga omnes imediatos a partir da protocolização.',
@@ -150,43 +140,77 @@ const QUESTION_BANK: Question[] = [
   },
   {
     id: 7,
-    discipline: 'Auditoria Fiscal',
-    topic: 'Procedimentos de Auditoria - Teste de Cut-off',
+    discipline: 'Ciência e Análise de Dados',
+    topic: 'LGPD e Tratamento de Dados no Setor Público',
     banca: 'FCC',
-    difficulty: 'Difícil',
-    statement: 'O teste de corte (cut-off) executado pelo Auditor Fiscal sobre as operações de compra e venda de mercadorias no encerramento do exercício social visa precipuamente verificar:',
+    difficulty: 'Média',
+    statement: 'De acordo com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018 - LGPD), o tratamento de dados pessoais pelas pessoas jurídicas de direito público deve ser realizado para o atendimento de sua finalidade pública, na persecução do interesse público, com o objetivo de:',
     options: [
-      'A) a correta classificação das contas no Balanço Patrimonial entre Circulante e Não Circulante.',
-      'B) a exatidão dos cálculos matemáticos de depreciação do ativo imobilizado.',
-      'C) se as receitas e despesas foram registradas no período contábil/fiscal correto a que pertencem.',
-      'D) o cumprimento de obrigações acessórias trabalhistas e previdenciárias do contribuinte.',
-      'E) a capacidade financeira de solvência da entidade perante o Fisco estadual.'
+      'A) auferir receita pecuniária acessória por meio do compartilhamento comercial com entidades privadas.',
+      'B) executar as competências legais ou cumprir as atribuições legais do serviço público.',
+      'C) dispensar a observância dos princípios da transparência e da minimização dos dados.',
+      'D) restringir o acesso do titular aos seus dados armazenados em bancos de dados do Estado.',
+      'E) promover a transferência irrestrita de bases cadastrais entre órgãos governamentais sem previsão legal.'
     ],
-    correctAnswer: 2,
-    explanation: 'O teste de corte (cut-off ou tempestividade) busca assegurar que as transações (especialmente compras, vendas e movimentação de estoques) foram registradas no período contábil/fiscal exato a que correspondem, evitando antecipação ou diferimento indevido de receitas e ICMS.'
+    correctAnswer: 1,
+    explanation: 'Conforme o art. 23 da LGPD, o tratamento de dados pessoais pelas pessoas jurídicas de direito público deve ser realizado para o atendimento de sua finalidade pública, na persecução do interesse público, com o objetivo de executar as competências legais ou cumprir as atribuições legais do serviço público.'
   },
   {
     id: 8,
-    discipline: 'Direito Tributário',
-    topic: 'ITCMD - Competência Estadual',
+    discipline: 'Noções de Direito Administrativo',
+    topic: 'Nova Lei de Licitações (Lei nº 14.133/2021) - Modalidades',
     banca: 'FCC',
-    difficulty: 'Fácil',
-    statement: 'Tratando-se do Imposto sobre Transmissão Causa Mortis e Doação (ITCMD), de competência dos Estados e DF, a transmissão de bens imóveis e seus respectivos direitos compete ao Estado:',
+    difficulty: 'Difícil',
+    statement: 'Nos termos da Lei nº 14.133/2021 (Nova Lei de Licitações e Contratos Administrativos), assinale a opção que indica a modalidade de licitação indicada para a seleção de trabalho técnico, científico ou artístico, cujo critério de julgamento será o de melhor técnica ou conteúdo artístico:',
     options: [
-      'A) onde for processado o inventário ou arrolamento.',
-      'B) da situação do bem imóvel.',
-      'C) onde tiver domicílio o doador ou o de cujus.',
-      'D) onde for feita a partilha judicial.',
-      'E) escolhido pelos herdeiros em convenção extrajudicial.'
+      'A) Pregão',
+      'B) Concorrência',
+      'C) Concurso',
+      'D) Leilão',
+      'E) Diálogo Competitivo'
     ],
-    correctAnswer: 1,
-    explanation: 'Nos termos do art. 155, § 1º, I da CF/88, relativamente a bens imóveis e respectivos direitos, compete o imposto (ITCMD) ao Estado da situação do bem.'
+    correctAnswer: 2,
+    explanation: 'De acordo com o art. 6º, XXXIX da Lei nº 14.133/2021, o Concurso é a modalidade de licitação para escolha de trabalho técnico, científico ou artístico, cujo critério de julgamento seja o de melhor técnica ou conteúdo artístico, concedendo prêmio ou remuneração ao vencedor.'
+  },
+  {
+    id: 9,
+    discipline: 'Língua Portuguesa',
+    topic: 'Regência Verbal e Emprego do Sinal Indicativo de Crase',
+    banca: 'FCC',
+    difficulty: 'Média',
+    statement: 'Assinale a alternativa que preenche correta e respectivamente as lacunas da frase: "O Auditor de Finanças prestou informações relevantes _____ comissão, visando _____ otimização dos processos e oferecendo suporte _____ todas as gerências da SEFAZ-SC."',
+    options: [
+      'A) à - à - a',
+      'B) a - a - à',
+      'C) à - a - a',
+      'D) a - à - à',
+      'E) à - à - à'
+    ],
+    correctAnswer: 0,
+    explanation: '1) "prestou informações relevantes à comissão" (quem presta algo, presta a alguém + artigo "a" = à). 2) "visando à otimização" (verbo visar no sentido de almejar exige preposição "a" + artigo "a" = à). 3) "suporte a todas as gerências" (diante do pronome "todas" não ocorre crase).'
+  },
+  {
+    id: 10,
+    discipline: 'Ciências da Computação e TI',
+    topic: 'Governança e Modelagem de Dados (SQL)',
+    banca: 'FCC',
+    difficulty: 'Difícil',
+    statement: 'Em um banco de dados relacional PostgreSQL utilizado na fiscalização financeira, para realizar a junção de duas tabelas mantendo todas as linhas da tabela da esquerda, mesmo quando não houver correspondência na tabela da direita, deve-se empregar a cláusula:',
+    options: [
+      'A) INNER JOIN',
+      'B) RIGHT OUTER JOIN',
+      'C) LEFT OUTER JOIN',
+      'D) CROSS JOIN',
+      'E) FULL OUTER JOIN'
+    ],
+    correctAnswer: 2,
+    explanation: 'A cláusula LEFT OUTER JOIN (ou simplesmente LEFT JOIN) retorna todos os registros da tabela da esquerda (primeira tabela) e os registros correspondentes da tabela da direita. Se não houver correspondência, o resultado conterá valores NULL para a tabela da direita.'
   }
 ];
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<'dashboard' | 'quiz' | 'generator' | 'copilot'>('dashboard');
-  const [questions, setQuestions] = useState<Question[]>(QUESTION_BANK);
+  const [questions] = useState<Question[]>(QUESTION_BANK);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState<{ [key: number]: number }>({});
   const [showExplanation, setShowExplanation] = useState<{ [key: number]: boolean }>({});
@@ -195,7 +219,7 @@ export default function App() {
 
   // Filters
   const [selectedDiscipline, setSelectedDiscipline] = useState<string>('Todas');
-  const [searchQuery, setSearchQuery] = useState<string>('');
+  const [searchQuery] = useState<string>('');
 
   const filteredQuestions = questions.filter((q) => {
     const matchesDiscipline = selectedDiscipline === 'Todas' || q.discipline === selectedDiscipline;
@@ -246,7 +270,7 @@ export default function App() {
               <h1 className="text-lg font-bold text-white tracking-tight flex items-center gap-2">
                 SEFAZ-SC <span className="text-xs bg-emerald-500/20 text-emerald-400 px-2 py-0.5 rounded font-mono uppercase">Banca FCC</span>
               </h1>
-              <p className="text-xs text-slate-400">Plataforma de Simulados e Estudos Fiscais</p>
+              <p className="text-xs text-slate-400">Auditor Estadual de Finanças Públicas - Plataforma Completa</p>
             </div>
           </div>
 
@@ -371,7 +395,11 @@ export default function App() {
                   'Legislação Tributária Estadual (SC)',
                   'Direito Tributário',
                   'Contabilidade Geral e Avançada',
-                  'Auditoria Fiscal'
+                  'Auditoria Fiscal',
+                  'Ciência e Análise de Dados',
+                  'Noções de Direito Administrativo',
+                  'Língua Portuguesa',
+                  'Ciências da Computação e TI'
                 ].map((disc) => {
                   const discQuestions = questions.filter((q) => q.discipline === disc);
                   const discAnswered = discQuestions.filter((q) => selectedAnswers[q.id] !== undefined);
@@ -386,7 +414,7 @@ export default function App() {
                       <div className="flex justify-between items-center mb-2">
                         <span className="text-sm font-medium text-slate-200">{disc}</span>
                         <span className="text-xs text-slate-400 font-mono">
-                          {discCorrect.length}/{discAnswered.length} resolvidadas ({accuracy}%)
+                          {discCorrect.length}/{discQuestions.length} questões no banco ({discAnswered.length} respondidas - {accuracy}%)
                         </span>
                       </div>
                       <div className="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
@@ -410,7 +438,7 @@ export default function App() {
             <div className="lg:col-span-1 space-y-4">
               <div className="bg-slate-950 border border-slate-800 rounded-xl p-4">
                 <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-3 flex items-center gap-2">
-                  <Filter className="w-4 h-4 text-emerald-400" /> Filtrar Disciplina
+                  <Filter className="w-4 h-4 text-emerald-400" /> Filtrar por Disciplina do Edital
                 </h3>
                 <select
                   value={selectedDiscipline}
@@ -421,10 +449,18 @@ export default function App() {
                   className="w-full bg-slate-900 border border-slate-800 text-slate-200 text-sm rounded-lg p-2.5 focus:border-emerald-500 focus:outline-none"
                 >
                   <option value="Todas">Todas as Disciplinas</option>
-                  <option value="Legislação Tributária Estadual (SC)">Legislação Tributária Estadual (SC)</option>
-                  <option value="Direito Tributário">Direito Tributário</option>
-                  <option value="Contabilidade Geral e Avançada">Contabilidade Geral e Avançada</option>
-                  <option value="Auditoria Fiscal">Auditoria Fiscal</option>
+                  <optgroup label="Conhecimentos Gerais">
+                    <option value="Língua Portuguesa">Língua Portuguesa</option>
+                    <option value="Noções de Direito Administrativo">Noções de Direito Administrativo</option>
+                    <option value="Ciência e Análise de Dados">Ciência e Análise de Dados</option>
+                  </optgroup>
+                  <optgroup label="Conhecimentos Específicos">
+                    <option value="Legislação Tributária Estadual (SC)">Legislação Tributária Estadual (SC)</option>
+                    <option value="Direito Tributário">Direito Tributário</option>
+                    <option value="Contabilidade Geral e Avançada">Contabilidade Geral e Avançada</option>
+                    <option value="Auditoria Fiscal">Auditoria Fiscal</option>
+                    <option value="Ciências da Computação e TI">Ciências da Computação e TI</option>
+                  </optgroup>
                 </select>
               </div>
 
@@ -599,11 +635,15 @@ export default function App() {
                   Disciplina Principal
                 </label>
                 <select className="w-full bg-slate-900 border border-slate-800 text-slate-200 text-sm rounded-lg p-3">
+                  <option>Simulado Global (Todas as disciplinas)</option>
                   <option>Legislação Tributária Estadual (SC)</option>
                   <option>Direito Tributário</option>
                   <option>Contabilidade Geral e Avançada</option>
                   <option>Auditoria Fiscal</option>
-                  <option>Simulado Global (Todas as disciplinas)</option>
+                  <option>Ciência e Análise de Dados / IA</option>
+                  <option>Noções de Direito Administrativo e Licitações</option>
+                  <option>Língua Portuguesa</option>
+                  <option>Ciências da Computação e TI</option>
                 </select>
               </div>
 
@@ -667,13 +707,13 @@ Requisitos:
 - Forneça o gabarito comentado ao final com citação dos artigos correspondentes.`
                 },
                 {
-                  title: 'Simulado de Contabilidade Avançada (CPCs)',
-                  description: 'Focado em CPC 15, CPC 16, CPC 25 e CPC 27 com cálculos contábeis de alto nível.',
-                  prompt: `Atue como elaborador de exames fiscais da banca FCC. Elabore 3 questões práticas de Contabilidade Avançada (CPCs 15, 16 e 25) para a SEFAZ-SC.
+                  title: 'Simulado de Ciência de Dados e IA na Administração Pública',
+                  description: 'Focado em LGPD, BI, IA Generativa e Governo Digital conforme o edital da SEFAZ-SC.',
+                  prompt: `Atue como examinador da banca FCC. Elabore 3 questões inéditas sobre Ciência e Análise de Dados aplicada à Administração Pública (foco em LGPD/Lei 13.709, Business Intelligence e IA no Setor Público) para a SEFAZ-SC.
 Requisitos:
-- Apresente dados numéricos para cálculo de custo de estoque, Goodwill e provisões contábeis.
-- Dê 5 alternativas por questão.
-- Apresente a resolução passo a passo de cada cálculo no gabarito.`
+- Dificuldade: Média/Alta.
+- Apresente 5 alternativas por questão.
+- Inclua gabarito fundamentado citando os artigos da LGPD e conceitos de BI/IA.`
                 }
               ].map((p, idx) => (
                 <div key={idx} className="bg-slate-950 border border-slate-800 rounded-xl p-5 flex flex-col justify-between space-y-4">
