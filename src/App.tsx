@@ -52,7 +52,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 3,
     explanation: "A) Incorreto: não ocorre crase antes do artigo indefinido 'uma'. B) Incorreto: 'à' no singular antes de palavra no plural ('obrigações') evidencia apenas preposição. C) Incorreto: não ocorre crase antes do pronome indefinido 'todas'. D) CORRETO: quem dá ciência, dá ciência de algo 'à gerência' (preposição 'a' + artigo feminino 'a'). E) Incorreto: não ocorre crase antes de verbo no infinitivo ('partir')."
-  },
+  }
   {
     id: 2,
     discipline: "Língua Portuguesa",
@@ -69,7 +69,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 3,
     explanation: "A) Incorreto: o verbo 'haver' no sentido de existir é impessoal (deve ficar no singular: 'Havia'). B) Incorreto: o verbo 'fazer' indicando tempo decorrido é impessoal (deve ficar no singular: 'Faz anos'). C) Incorreto: na estrutura com índice de indeterminabilidade do sujeito (verbo + se + preposição), o verbo fica no singular ('Trata-se de'). D) CORRETO: com a expressão 'mais de um', o verbo concorda com o numeral 'um', ficando no singular ('assinou'). E) Incorreto: o verbo 'acontecer' é pessoal e concorda com o sujeito 'uma série' ou 'inconsistências' ('Aconteceu... uma série' ou 'Aconteceram...')."
-  },
+  }
   {
     id: 3,
     discipline: "Língua Portuguesa",
@@ -86,7 +86,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 0,
     explanation: "A) CORRETO: o verbo 'referir-se' exige a preposição 'a' ('referir-se a algo/alguém'), a qual deve anteceder o pronome relativo 'que'. B) Incorreto: o verbo 'preferir' exige a regência 'preferir algo a outro algo' (sem 'mais' ou 'do que'). C) Incorreto: 'assistir' no sentido de presenciar/ver é transitivo indireto com preposição 'a' ('assistiu ao debate'). D) Incorreto: o verbo 'simpatizar' exige preposição 'com' ('com que todos... simpatizam'). E) Incorreto: 'aspirar' no sentido de almejar é transitivo indireto com preposição 'a' ('a que o chefe... aspirava')."
-  },
+  }
   {
     id: 4,
     discipline: "Língua Portuguesa",
@@ -103,7 +103,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 2,
     explanation: "A e B) Incorretas: a oração subordinada adverbial reduzida intercalada deve ficar isolada por duas vírgulas (ou sem nenhuma se for curta), não por apenas uma. C) CORRETO: o deslocamento da oração adverbial para o final do período mantém a correção gramatical e o sentido original, tornando a vírgula opcional ou explicativa da ordem temporal. D) Incorreta: separa indevidamente o termo especificador do núcleo do sujeito. E) Incorreta: Separa indevidamente o verbo ('notificou') do seu objeto direto ('a empresa')."
-  },
+  }
   {
     id: 5,
     discipline: "Língua Portuguesa",
@@ -120,7 +120,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 3,
     explanation: "A) Incorreto: a palavra negativa 'Não' atrai obrigatoriamente a próclise ('Não se enviou'). B) Incorreto: não se inicia frase com pronome oblíquo átono ('Identificou-se'). C) Incorreto: com o verbo no futuro do pretérito sem atrativo próclitico, aplica-se a mesóclise ('apresentar-nos-iam'). D) CORRETO: o pronome indefinido 'Poucos' atrai obrigatoriamente a próclise ('se dispuseram'). E) Incorreto: a conjunção subordinativa 'Conforme' é fator de atração próclitica ('nos informaram')."
-  },
+  }
   {
     id: 6,
     discipline: "Língua Portuguesa",
@@ -137,7 +137,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 2,
     explanation: "A) Incorreto: o correto é 'autoestrada' (sem hífen), 'ideia', 'voo' e 'assembleia' (sem acento). B) Incorreto: 'jiboia' não leva acento tónico nas paroxítonas com ditongo aberto. C) CORRETO: todas as palavras estão ortográfica e acentuadamente corretas conforme as regras vigentes. D) Incorreto: o correto é 'antissemita' (dobra-se o 's'). E) Incorreto: 'também' exige acento agudo na oxítona terminada em '-em'."
-  },
+  }
   {
     id: 7,
     discipline: "Língua Portuguesa",
@@ -154,7 +154,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "'Embora' é uma conjunção subordinativa concessiva. A concessão exprime um fato que poderia opor-se à realização da oração principal, mas não impede a sua ocorrência (oposição/ressalva)."
-  },
+  }
   {
     id: 8,
     discipline: "Língua Portuguesa",
@@ -171,7 +171,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 0,
     explanation: "Na voz ativa temos: Sujeito ('A equipe de auditoria') + Verbo no Pretérito Perfeito do Indicativo ('analisou') + Objeto Direto no plural ('todas as notas fiscais'). Na passagem para a voz passiva, o objeto direto passa a sujeito paciente ('Todas as notas fiscais') e o verbo passa a locução passiva correspondente no tempo pretérito perfeito plural: 'Foram analisadas'."
-  },
+  }
   {
     id: 9,
     discipline: "Língua Portuguesa",
@@ -188,7 +188,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "A palavra 'peremptório' significa decisivo, definitivo, categórico, dogmático, que não permite réplica nem discussão."
-  },
+  }
   {
     id: 10,
     discipline: "Língua Portuguesa",
@@ -202,7 +202,7 @@ const QUESTION_BANK: Question[] = [
       "C) Cordialmente,",
       "D) Com os meus cumprimentos,",
       "E) Atentamente,"
-    ],
+    ]
     correctAnswer: 1,
     explanation: "Conforme o Manual de Redação Oficial: 1) 'Respeitosamente,' é utilizado para autoridades superiores (inclusive o Presidente). 2) 'Atenciosamente,' é utilizado para autoridades de mesma hierarquia, de hierarquia inferior ou para cidadãos."
   }
@@ -224,7 +224,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 2,
     explanation: "'Ainda que' introduz uma oração subordinada adverbial concessiva. A única conjunção equivalente do ponto de vista sintático e semântico entre as opções é 'Embora', que também exige o verbo no modo subjuntivo ('disponha'). A) 'Contanto que' indica condição; B) 'Porquanto' indica causa/explicação; D) 'A fim de que' indica finalidade; E) 'Segundo' indica conformidade."
-  },
+  }
   {
     id: 12,
     discipline: "Língua Portuguesa",
@@ -241,7 +241,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 2,
     explanation: "1) 'Seguem anexas' concorda com o sujeito 'as cópias' (feminino plural). 2) 'bastantes' funciona como adjetivo (equivalente a 'suficientes') e concorda com 'as explicações' no plural. 3) 'fica proibida a entrada': a presença do artigo 'a' diante do substantivo exige a concordância no feminino ('proibida')."
-  },
+  }
   {
     id: 13,
     discipline: "Língua Portuguesa",
@@ -258,7 +258,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 2,
     explanation: "O ponto e vírgula é adequadamente utilizado para estruturar e separar os diversos tópicos de uma enumeração enumerativa explicativa, iniciada formalmente após a apresentação geral pelos dois-pontos."
-  },
+  }
   {
     id: 14,
     discipline: "Língua Portuguesa",
@@ -275,7 +275,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "A articulação temporal perfeita exige o Imperfeito do Subjuntivo na oração subordinada condicional ('se mantivesse') combinado com o Futuro do Pretérito do Indicativo na oração principal ('arrecadaria'). Na opção A, o correto seria 'Se o auditor mantiver... arrecadará' (Futuro do Subjuntivo + Futuro do Presente)."
-  },
+  }
   {
     id: 15,
     discipline: "Língua Portuguesa",
@@ -292,7 +292,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 2,
     explanation: "A) Incorreto: 'onde' só indica lugar físico estático; para ação de extrair, o adequado seria 'do qual' ou 'de onde'. B) Incorreto: o verbo 'investigar' é transitivo direto (não exige 'sobre'). C) CORRETO: o verbo 'obedecer' é transitivo indireto e exige a preposição 'a' ('obedecem a algo'), a qual deve preceder o pronome relativo cujo/cujo cumprimento. D e E) Incorretas: o pronome relativo 'cujo' concorda com o substantivo seguinte e não admite artigo 'os/as' acoplado ('de cujas diretrizes' ou 'em cujos fundamentos')."
-  },
+  }
   {
     id: 16,
     discipline: "Língua Portuguesa",
@@ -309,7 +309,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "A palavra 'desburocratização' é formada pelo acréscimo simultâneo do prefixo 'des-' e dos sufixos '-izar/-ção' à base radical 'burocrata'. Como a remoção do prefixo mantém uma palavra existente ('burocratização'), trata-se de derivação prefixal e sufixal (diferente da parassíntese, em que a palavra não existe sem um dos elementos)."
-  },
+  }
   {
     id: 17,
     discipline: "Língua Portuguesa",
@@ -326,7 +326,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 3,
     explanation: "Denotação é o uso da palavra em seu sentido real, dicionarizado e objetivo. A frase D apresenta dados concretos e quantitativos sem o uso de metáforas ou figuras de linguagem. As demais alternativas contêm conotações ('chaga/corrói', 'luz verde', 'mergulharam de cabeça', 'blindou')."
-  },
+  }
   {
     id: 18,
     discipline: "Língua Portuguesa",
@@ -343,7 +343,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "Estrutura: Verbo de ligação ('É') + Predicativo do Sujeito ('indispensável') + Oração Subordinada Substantiva Subjetiva ('que os contribuintes mantenham...'). Substituindo por 'Isso': 'Isso é indispensável' -> 'Isso' desempenha o papel de sujeito."
-  },
+  }
   {
     id: 19,
     discipline: "Língua Portuguesa",
@@ -360,7 +360,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "A metonímia consiste na substituição de um termo por outro havendo entre eles uma relação de contiguidade de sentido, neste caso empregando a parte ('páginas') para designar o todo ('os documentos/relatórios na sua totalidade')."
-  },
+  }
   {
     id: 20,
     discipline: "Língua Portuguesa",
@@ -396,7 +396,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 4,
     explanation: "A) Incorreto: o verbo 'simpatizar' exige a preposição 'com' ('com que todos... simpatizaram'). B) Incorreto: o pronome relativo 'cujo' não admite artigo antecedente ou subsequente ('de cujos auditores'). C) Incorreto: o verbo 'obrigar-se' exige a preposição 'a', mas 'cumprimento' exige a preposição 'com' ou 'de' ('a cujo cumprimento... se obriga' está redundante ou incorreto pela regência de 'cumprimento de'). D) Incorreto: 'onde' aplica-se a lugares físicos estáticos, não a documentos/relatórios ('no qual'). E) CORRETO: o verbo 'encontrar' aplica-se com a preposição 'em' ('encontrou inconsistências nas contas da empresa' -> 'em cujas contas')."
-  },
+  }
   {
     id: 22,
     discipline: "Língua Portuguesa",
@@ -413,7 +413,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 0,
     explanation: "A) CORRETO: com expressões partitivas ('a maioria de', 'a maior parte de') seguidas de substantivo no plural, o verbo pode concordar no singular com o núcleo partitivo ('compareceu') ou no plural com o especificador ('compareceram'). C) Incorreto: 'cerca de cem' exige verbo no plural ('prestaram'). D) Incorreto: 'mais de um' exige verbo no singular ('apresentou'). E) Incorreto: com o pronome 'nenhum dos' no singular, o verbo fica obrigatoriamente no singular ('concordou')."
-  },
+  }
   {
     id: 23,
     discipline: "Língua Portuguesa",
@@ -430,7 +430,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "A oração reduzida de infinitivo 'Ao concluir...' possui valor sintático-semântico de tempo (temporal de imediatidade). Desenvolvendo-a com uma conjunção temporal equivalente, obtém-se 'Assim que concluiu...' ou 'Quando concluiu'."
-  },
+  }
   {
     id: 24,
     discipline: "Língua Portuguesa",
@@ -447,7 +447,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 2,
     explanation: "C) CORRETO: o pronome demonstrativo 'isto' possui valor anafórico/catafórico antecedendo uma enumeração explicativa posterior. A) Incorreto: 'este' refere-se ao mais próximo (Diretor) e 'aquele' ao mais distante (Secretário). B) Incorreto: 'nesta' refere-se ao Estado mais próximo citado (Paraná) e 'naquela' ao mais distante (Santa Catarina). D) Incorreto: para o objeto próximo do interlocutor usa-se 'esse/essa'. E) Incorreto: para o objeto próximo do falante usa-se 'estas informações'."
-  },
+  }
   {
     id: 25,
     discipline: "Língua Portuguesa",
@@ -464,7 +464,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "Elementos explicativos, orações adjetivas explicativas ou termos intercalados podem ser isolados indistintamente por par de travessões, par de vírgulas ou par de parênteses."
-  },
+  }
   {
     id: 26,
     discipline: "Língua Portuguesa",
@@ -481,7 +481,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "O verbo 'reanalisasse' está flexionado no Imperfeito do Subjuntivo. A flexão correspondente do verbo 'ver' no Imperfeito do Subjuntivo é 'visse' ('Caso o auditor visse os documentos, encontraria o erro'). Se fosse Futuro do Subjuntivo ('Se o auditor reanalisar...'), a forma do verbo ver seria 'vir'."
-  },
+  }
   {
     id: 27,
     discipline: "Língua Portuguesa",
@@ -498,7 +498,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "'Contudo' é conjunção coordenativa adversativa (oposição entre orações independentes). A reescrita preserva a ideia central de oposição transformando a primeira oração em uma subordinada concessiva introduzida por 'Embora' com o verbo devidamente ajustado ao subjuntivo ('tenha intensificado')."
-  },
+  }
   {
     id: 28,
     discipline: "Língua Portuguesa",
@@ -515,7 +515,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "Na locução 'parecer + infinitivo', a concordância pode ser feita de duas formas válidas: 1) flexiona-se o verbo parecer e mantém-se o infinitivo impessoal ('As irregularidades parecem ser'); ou 2) mantém-se o verbo parecer no singular e flexiona-se o infinitivo ('As irregularidades parece serem'). A opção B apresenta a forma plenamente correta da primeira regra."
-  },
+  }
   {
     id: 29,
     discipline: "Língua Portuguesa",
@@ -532,7 +532,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 0,
     explanation: "1) 'Remissão' (com 'ss') significa perdão/cancelação de dívida ou tributo. ('Remição' com 'ç' significa resgate/pagamento de dívida). 2) 'Afetar' significa produzir efeito/causar prejuízo. 3) 'Auferir' significa colher/obter lucros."
-  },
+  }
   {
     id: 30,
     discipline: "Língua Portuguesa",
@@ -567,7 +567,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 4,
     explanation: "Em locuções verbais: A) Com palavra de atração ('Não'), o pronome pode ficar antes do verbo auxiliar ('Não se deve enviar') ou depois do infinitivo ('Não deve enviar-se'). B) Com infinitivo ou gerúndio, o pronome pode vir ligado ao verbo principal ('ter-se pronunciado'). C) Com palavra atrativa ('Ninguém'), o pronome pode vir após a locução se o verbo principal for infinitivo, mas no uso padrão a atração atrai o pronome para antes do auxiliar. D) Em locuções com infinitivo sem palavra de atração, o pronome pode ficar após o verbo principal ('enviar-nos') ou após o auxiliar ('vai-nos enviar'). Portanto, as construções apresentadas cumprem os preceitos gramaticais aceitos pela FCC."
-  },
+  }
   {
     id: 32,
     discipline: "Língua Portuguesa",
@@ -584,7 +584,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "1) Com o pronome relativo 'QUE', o verbo concorda obrigatoriamente com o antecedente ('nós identificamos'). 2) Com o pronome relativo 'QUEM', o verbo pode concordar na 3ª pessoa do singular ('quem lavrou') ou concordar com o antecedente 'nós' ('quem lavramos'). A alternativa B apresenta a combinação perfeitamente aceita e preferencial pela banca FCC."
-  },
+  }
   {
     id: 33,
     discipline: "Língua Portuguesa",
@@ -601,7 +601,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 2,
     explanation: "A frase I contém uma oração subordinada adjetiva explicativa (entre vírgulas), indicando que TODOS os auditores concluíram o relatório. A frase II contém uma oração subordinada adjetiva restritiva (sem vírgulas), restringindo o elogio APENAS aos auditores que concluíram o relatório. A eliminação das vírgulas altera a classificação sintática e o sentido do enunciado."
-  },
+  }
   {
     id: 34,
     discipline: "Língua Portuguesa",
@@ -618,7 +618,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "A estrutura 'tão... que' (ou 'tanto... que', 'tamanho... que') introduz uma oração subordinada adverbial consecutiva, expressando o resultado ou a consequência direta do fato mencionado na oração principal ('A fiscalização foi tão rigorosa...')."
-  },
+  }
   {
     id: 35,
     discipline: "Língua Portuguesa",
@@ -635,7 +635,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "A) Incorreto: 'discricionariedade' não justifica ilícito/sonegação. B) CORRETO: 'discrição' significa prudência, moderação e reserva de comportamento. C) Incorreto: o adequado seria 'paralisação/cessação' (cassação é anulação de direito/mandato). D) Incorreto: perdão de dívida sem pagamento é 'remissão' (com 'ss'). E) Incorreto: deixar o cargo é 'exonerou-se/afastou-se' ou 'diferiu' no sentido de adiar tributo."
-  },
+  }
   {
     id: 36,
     discipline: "Língua Portuguesa",
@@ -652,7 +652,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "'Não obstante' é uma locução conjuntiva de valor concessivo (oposição que não impede o fato principal). A única reescrita que preserva essa relação sintático-semântica de concessão é 'Apesar de...'."
-  },
+  }
   {
     id: 37,
     discipline: "Língua Portuguesa",
@@ -669,7 +669,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 0,
     explanation: "'À medida que' (assim como 'à proporção que') é uma locução conjuntiva subordinativa proporcional, indicando um fato que ocorre simultaneamente e na mesma proporção que outro."
-  },
+  }
   {
     id: 38,
     discipline: "Língua Portuguesa",
@@ -686,7 +686,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "Nomes de cidades geralmente não admitem artigo definido 'a' (quem vai a Florianópolis, volta de Florianópolis - sem crase). No entanto, quando o nome do lugar vem especificado ou acompanhado de um adjetivo/qualificador ('à bela Florianópolis'), o artigo passa a ser obrigatório, ocorrendo a crase."
-  },
+  }
   {
     id: 39,
     discipline: "Língua Portuguesa",
@@ -703,7 +703,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 4,
     explanation: "Todas as palavras estão flexionadas corretamente no plural: 1) para-raios (verbo + substantivo = apenas o segundo varia); 2) abaixo-assinados (advérbio + adjetivo = apenas o segundo varia); 3) decretos-leis (substantivo + substantivo = ambos variam ou apenas o primeiro); 4) salvos-condutos (adjetivo + substantivo = ambos variam)."
-  },
+  }
   {
     id: 40,
     discipline: "Língua Portuguesa",
@@ -738,7 +738,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 0,
     explanation: "A) CORRETO: o verbo 'discordar' é transitivo indireto e exige a preposição 'de' ('discordou de algo/de cujas conclusões'). B) Incorreto: o verbo 'dirigir-se' exige preposição 'a' e atrai próclise ('a cuja sede os auditores se dirigiram'). C) Incorreto: o verbo 'exigir' é transitivo direto no contexto ('exige o cumprimento de algo'). D) Incorreto: o verbo 'referir-se' exige preposição 'a' ('a cujos dados'). E) Incorreto: o verbo 'fundamentar-se' exige preposição 'em' ou 'com', mas a colocação do pronome 'se' no final da locução verbal antecedida de atração está incorreta."
-  },
+  }
   {
     id: 42,
     discipline: "Língua Portuguesa",
@@ -755,7 +755,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 2,
     explanation: "Quando o verbo está anteposto ao sujeito composto ('o relatório...' e 'a prestação...'), a concordância pode ser feita de duas formas válidas: 1) no plural, concordando com a totalidade dos núcleos do sujeito ('Chegaram'); ou 2) no singular, concordando por atração com o núcleo mais próximo ('Chegou')."
-  },
+  }
   {
     id: 43,
     discipline: "Língua Portuguesa",
@@ -772,7 +772,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "'Sem que' estabelece uma relação condicional negativa. A expressão equivalente que mantém o valor condicional de exceção/hipótese negativa é 'A menos que' (ou 'A não ser que')."
-  },
+  }
   {
     id: 44,
     discipline: "Língua Portuguesa",
@@ -789,7 +789,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 2,
     explanation: "Na opção C, há uma oração subordinada adverbial causal anteposta à oração principal ('Como o prazo de fiscalização havia expirado,...'). Quando a oração adverbial surge anteposta ou intercalada, o uso da vírgula para separá-la da oração principal é obrigatório."
-  },
+  }
   {
     id: 45,
     discipline: "Língua Portuguesa",
@@ -806,7 +806,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 0,
     explanation: "Todas as palavras da opção A ('Relatório', 'tributária', 'matéria', 'exigência') são paroxítonas terminadas em ditongo crescente (ou oral), seguindo rigorosamente a mesma regra de acentuação."
-  },
+  }
   {
     id: 46,
     discipline: "Língua Portuguesa",
@@ -823,7 +823,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 0,
     explanation: "1) 'à proporção que': locução conjuntiva proporcional feminina (exige crase). 2) 'à sombra da': locução prepositiva feminina (exige crase). 3) 'dedicando-se à busca': o verbo dedicar-se exige preposição 'a' + artigo feminino 'a' antes do substantivo 'busca' (= à busca)."
-  },
+  }
   {
     id: 47,
     discipline: "Língua Portuguesa",
@@ -840,7 +840,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "'Revogável' significa passível de anulação, cancelamento ou alteração. O seu antônimo direto (aquilo que não se pode anular ou alterar) é 'irretratável' ou 'irrevogável'."
-  },
+  }
   {
     id: 48,
     discipline: "Língua Portuguesa",
@@ -857,7 +857,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: " Em 'funcionário simples', 'simples' é adjetivo e significa humilde/sem ornamentos. Em 'simples funcionário', 'simples' passa a funcionar semanticamente como adjetivo com valor restritivo/pronominal (significando 'mero/apenas um funcionário').Nas demais opções ocorrem mudanças apenas de ênfase expressiva."
-  },
+  }
   {
     id: 49,
     discipline: "Língua Portuguesa",
@@ -874,7 +874,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "'Concluída' é um particípio (forma nominal). A oração reduzida de particípio 'Concluída a auditoria' equivale à oração subordinada adverbial temporal desenvolvida: 'Assim que foi concluída a auditoria' ou 'Quando se concluiu a auditoria'."
-  },
+  }
   {
     id: 50,
     discipline: "Língua Portuguesa",
@@ -909,7 +909,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "'A despeito de' introduz uma oração com valor concessivo. A locução 'Não obstante' é perfeitamente equivalente do ponto de vista sintático e semântico, mantendo a oração reduzida no infinitivo ('ter superado') e a correção do período."
-  },
+  }
   {
     id: 52,
     discipline: "Língua Portuguesa",
@@ -926,7 +926,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 0,
     explanation: "1) O substantivo 'referência' exige a preposição 'a' ('fez referência a algo/a cuja aplicação'). 2) O verbo 'investigar' é transitivo direto ('investigava a conduta do contribuinte/cuja conduta se investigava'). O pronome 'cujo' não admite artigo pós-posto ('cuja a' está incorreto)."
-  },
+  }
   {
     id: 53,
     discipline: "Língua Portuguesa",
@@ -943,7 +943,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 0,
     explanation: "A) CORRETO: na locução verbal com o verbo 'haver' no sentido de existir, o verbo auxiliar ('dever') herda a impessoalidade do verbo principal, devendo permanecer obrigatoriamente no singular ('Deve haver'). B e E) Incorretas: o auxiliar não deve ir para o plural. C) Incorreta: o verbo 'fazer' indicando tempo decorrido transmite impessoalidade ao auxiliar ('Vai fazer'). D) Incorreta: verbo com SE + preposição fica no singular ('Trata-se de')."
-  },
+  }
   {
     id: 54,
     discipline: "Língua Portuguesa",
@@ -960,7 +960,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 0,
     explanation: "Em orações coordenadas assindéticas e sindéticas com sujeitos diferentes ('O Auditor...', 'o fiscal...', 'o Secretário...'), a vírgula é empregada corretamente para separar as orações, incluindo a vírgula antes da conjunção 'e' quando os sujeitos de cada oração forem distintos."
-  },
+  }
   {
     id: 55,
     discipline: "Língua Portuguesa",
@@ -977,7 +977,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 0,
     explanation: "O 'QUE' introduz uma oração subordinada substantiva subjetiva ('Sabe-se ISTO' -> 'Que a fiscalização será intensificada é sabido'). Por introduzir uma oração subordinada substantiva, trata-se de uma conjunção subordinativa integrante."
-  },
+  }
   {
     id: 56,
     discipline: "Língua Portuguesa",
@@ -994,7 +994,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "Pronomes interrogativos ('Quem') e palavras de sentido negativo ('Ninguém') são fatores de atração próclitica obrigatória. Assim, o pronome deve vir antes do verbo ('Quem lhe informou...'). A opção A e E violam a atração da próclise."
-  },
+  }
   {
     id: 57,
     discipline: "Língua Portuguesa",
@@ -1011,7 +1011,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 2,
     explanation: "O uso da crase é facultativo: 1) diante de pronomes possessivos femininos no singular ('à sua mesa' / 'a sua mesa'); 2) diante de nomes próprios femininos não especificados; 3) após a preposição 'até' diante de palavras femininas."
-  },
+  }
   {
     id: 58,
     discipline: "Língua Portuguesa",
@@ -1028,7 +1028,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 2,
     explanation: "Na alternativa C, a palavra 'Leão' é empregada conotativamente (metonímia/metáfora cultural) para designar o Fisco / Receita Federal, diferindo do seu sentido denotativo (animal felídeo) presente nas demais opções."
-  },
+  }
   {
     id: 59,
     discipline: "Língua Portuguesa",
@@ -1045,7 +1045,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 0,
     explanation: "Nos adjetivos compostos, via de regra, apenas o último elemento varia em gênero e número para concordar com o substantivo a que se refere ('questões político-econômicas')."
-  },
+  }
   {
     id: 60,
     discipline: "Língua Portuguesa",
@@ -1081,7 +1081,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "A oração reduzida de gerúndio 'Aprimorando os mecanismos...' exprime ideia de meio/tempo (simultaneidade da ação). A forma desenvolvida equivalente mantendo a ideia de tempo/modo é 'Ao aprimorar...' ou 'À medida que aprimorava...'. A opção B preserva perfeitamente o sentido e a correção."
-  },
+  }
   {
     id: 62,
     discipline: "Língua Portuguesa",
@@ -1098,7 +1098,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 4,
     explanation: "1) Na opção A, com 'nem... nem', a ação pode ser atribuída a ambos os sujeitos, levando o verbo ao plural (ou ao singular, sendo aceito ambas as formas pela norma). 2) Na opção D, com a conjunção 'ou' com sentido de exclusão (apenas uma cidade será a sede), o verbo fica obrigatoriamente no singular ('será'). Assim, A e D estão corretas."
-  },
+  }
   {
     id: 63,
     discipline: "Língua Portuguesa",
@@ -1115,7 +1115,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 0,
     explanation: "A) CORRETO: o adjetivo 'favorável' exige a preposição 'a' ('favorável à concessão') e o substantivo 'concessão' exige a preposição 'a' antes de 'empresa' ('isenção à empresa'). B) Incorreto: não ocorre crase antes de verbo no infinitivo ('examinar'). C) Incorreto: não ocorre crase antes de pronome indefinido 'todas'. D) Incorreto: 'à' no singular antes de palavra no plural ('apelos') indica apenas preposição. E) Incorreto: 'à' no singular antes de plural ('operações') é incorreto."
-  },
+  }
   {
     id: 64,
     discipline: "Língua Portuguesa",
@@ -1132,7 +1132,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "'Em decorrência das novas diretrizes de fiscalização tributária' é um adjunto adverbial de causa/condição de grande extensão (composto por várias palavras) deslocado para o início da frase. A vírgula é obrigatória nesse caso."
-  },
+  }
   {
     id: 65,
     discipline: "Língua Portuguesa",
@@ -1149,7 +1149,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "1) Na primeira lacuna, 'o relatório se enviará' ou 'enviar-se-á': no entanto, havendo o advérbio 'amanhã' ou a conjunção condicional 'se' na oração, ou a próclise natural do contexto, a forma 'se enviará' é aceita. 2) Na segunda lacuna, a locução 'caso contrário' (com o pronome 'caso'/advérbio) atrai obrigatoriamente a próclise ('nos concederão'). É vedado colocar pronome oblíquo após verbo no futuro ('concederão-nos' é incorreto)."
-  },
+  }
   {
     id: 66,
     discipline: "Língua Portuguesa",
@@ -1166,7 +1166,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 2,
     explanation: "Quando o adjetivo/particípio está anteposto a múltiplos substantivos de gêneros diferentes ('documentação' - fem / 'relatórios' - masc), ele deve concordar com o mais próximo ('Foi apresentada documentação...') ou ir para o masculino plural ('Foram apresentados...'). A opção C é incorreta porque usou o feminino plural ('apresentadas') para concordar com um par composto que contém um elemento masculino."
-  },
+  }
   {
     id: 67,
     discipline: "Língua Portuguesa",
@@ -1183,7 +1183,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 0,
     explanation: "'Ipso facto' é uma expressão latina de uso frequente no meio jurídico/fiscal que significa 'pelo próprio fato', 'por isso mesmo', 'consequentemente' ou 'por essa razão'."
-  },
+  }
   {
     id: 68,
     discipline: "Língua Portuguesa",
@@ -1200,7 +1200,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "Na voz passiva analítica ('foi autuada'), o termo introduzido pela preposição 'por/pelo' que pratica a ação expressa pelo verbo passivo ('o Fisco autuou a empresa') desempenha a função sintática de Agente da Passiva."
-  },
+  }
   {
     id: 69,
     discipline: "Língua Portuguesa",
@@ -1217,7 +1217,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 4,
     explanation: "1) 'Requerer' no pretérito perfeito é 'requereu' (não segue o verbo querer). 2) 'Prover' no futuro do subjuntivo é 'prover' ('se prover os cargos'). 3) 'Reaver' é defectivo e só possui formas com a letra 'v' ('quando reouver'). Portanto, B e D estão corretas."
-  },
+  }
   {
     id: 70,
     discipline: "Língua Portuguesa",
@@ -1252,7 +1252,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 0,
     explanation: "'À proporção que' e 'À medida que' são locuções conjuntivas subordinativas proporcionais equivalentes. 'Na medida em que' possui valor causal, alterando a relação semântica do período."
-  },
+  }
   {
     id: 72,
     discipline: "Língua Portuguesa",
@@ -1269,7 +1269,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 0,
     explanation: "1) Com numerais percentuais seguidos de substantivo no plural ('1% dos contribuintes'), o verbo concorda com o numeral singular ('recebeu') ou com o complemento no plural ('receberam'). 2) Com porcentagem seguida de substantivo no singular ('20% da arrecadação'), a concordância atrai obrigatoriamente o singular referente ao núcleo substantivo ('provém' com acento agudo). A opção A atende à norma gramatical."
-  },
+  }
   {
     id: 73,
     discipline: "Língua Portuguesa",
@@ -1286,7 +1286,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 4,
     explanation: "1) 'Informar algo A alguém': o pronome 'lhe' funciona como objeto indireto ('informou-lhe que...'). 2) 'Aprovar' é VTD, exigindo 'o' ('aprovou-o'). 3) 'Atender' aceita VTD, e 'encaminhar' é VTDI ('encaminhou-os'). 4) 'Comunicar' é VTDI: comunica algo A alguém ('comunicou-lhes o resultado'). Portanto, A e C cumprem as regras."
-  },
+  }
   {
     id: 74,
     discipline: "Língua Portuguesa",
@@ -1303,7 +1303,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 0,
     explanation: "Orações intercaladas (como 'afirmam os especialistas') devem ser isoladas obrigatoriamente por um par de vírgulas, par de travessões ou par de parênteses."
-  },
+  }
   {
     id: 75,
     discipline: "Língua Portuguesa",
@@ -1320,7 +1320,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "A) Após 'até' a crase é facultativa. B) OBRIGATÓRIA: 'dar provimento' exige preposição 'a' + artigo 'a' antes do substantivo feminino 'reclamação' (= à reclamação). C) Antes de possessivo feminino no singular a crase é facultativa. D e E) Incorretas: não ocorre crase antes de 'uma' ou 'qualquer'."
-  },
+  }
   {
     id: 76,
     discipline: "Língua Portuguesa",
@@ -1337,7 +1337,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 2,
     explanation: "A conjunção subordinativa temporal 'Quando' atrai obrigatoriamente a próclise. O correto é: 'Quando nos apresentaram as provas...' (e não 'apresentaram-nos'). As demais opções contêm fatores de atração próclitica corretos ('Embora', 'Conforme', 'Caso', 'Para que')."
-  },
+  }
   {
     id: 77,
     discipline: "Língua Portuguesa",
@@ -1354,7 +1354,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 0,
     explanation: "'Porquanto' é uma conjunção subordinativa causal (equivalente a 'visto que', 'já que', 'porque'), introduzindo a razão/causa do crescimento da arrecadação."
-  },
+  }
   {
     id: 78,
     discipline: "Língua Portuguesa",
@@ -1371,7 +1371,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 1,
     explanation: "Na linguagem jurídica e administrativa, 'lavrar' significa redigir, exarar ou formalizar em ata/termo oficial ('lavrou o auto de infração')."
-  },
+  }
   {
     id: 79,
     discipline: "Língua Portuguesa",
@@ -1388,7 +1388,7 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 0,
     explanation: "'Obtiver' é a flexão do verbo 'obter' no Futuro do Subjuntivo (introduzido pela conjunção temporal 'Quando')."
-  },
+  }
   {
     id: 80,
     discipline: "Língua Portuguesa",
@@ -1423,185 +1423,14 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 0,
     explanation: "'Por mais que' introduz uma oração subordinada adverbial concessiva. A locução 'Ainda que' é perfeitamente equivalente, mantendo o valor de concessão e a exigência do verbo no modo subjuntivo ('intensifique'). B e D possuem valor causal, C valor proporcional e E valor condicional."
-  },
+  }
   {
     id: 82,
     discipline: "Língua Portuguesa",
     topic: "Concordância Verbal - Verbo Haver e Existir em Locuções",
     banca: "FCC",
     difficulty: "Média",
-   {
-    id: 91,
-    discipline: "Língua Portuguesa",
-    topic: "Equivalência e Transformação de Estruturas / Conjunções Causais",
-    banca: "FCC",
-    difficulty: "Média",
-    statement: "O trecho 'Visto que o prazo para a apresentação de recurso expirou, a cobrança do débito fiscal tornou-se exigível' mantém a correção gramatical e a equivalência semântica ao ter a oração sublinhada substituída por:",
-    options: [
-      "A) Como o prazo para a apresentação de recurso expirou...",
-      "B) Porquanto o prazo para a apresentação de recurso expirasse...",
-      "C) Embora o prazo para a apresentação de recurso expirasse...",
-      "D) À medida que o prazo para a apresentação de recurso expira...",
-      "E) A fim de que o prazo para a apresentação de recurso expirasse..."
-    ],
-    correctAnswer: 0,
-    explanation: "'Visto que' é uma conjunção subordinativa causal. A conjunção 'Como' (quando anteposta à oração principal) também possui valor sintático-semântico causal equivalente, mantendo o verbo no modo indicativo ('expirou'). As demais opções alteram a relação semântica do período."
-  },
-  {
-    id: 92,
-    discipline: "Língua Portuguesa",
-    topic: "Concordância Verbal com Expressões Numéricas e Fracionárias",
-    banca: "FCC",
-    difficulty: "Média",
-    statement: "Assinale a opção em que a concordância verbal atende rigorosamente às exigências da norma-padrão.",
-    options: [
-      "A) Um terço dos auditores fiscais solicitaram transferência para a capital.",
-      "B) Um terço dos auditores fiscais solicitou transferência para a capital.",
-      "C) Dois terços do relatório fiscal foi aprovado pela comissão técnica.",
-      "D) Dois terços do relatório fiscal foram aprovados pela comissão técnica.",
-      "E) As opções A, B e C estão corretas segundo a norma-padrão."
-    ],
-    correctAnswer: 4,
-    explanation: "1) Com frações seguidas de substantivo no plural ('Um terço dos auditores'), o verbo pode concordar com o numerador singular ('solicitou') ou com o complemento no plural ('solicitaram'). 2) Com fração plural seguida de substantivo no singular ('Dois terços do relatório'), o verbo pode concordar com o numerador no plural ('foram aprovados' - não listado) ou com o núcleo especificador no singular ('foi aprovado'). Portanto, A, B e C cumprem as regras da norma culta."
-  },
-  {
-    id: 93,
-    discipline: "Língua Portuguesa",
-    topic: "Regência Nominal e Emprego de Preposição",
-    banca: "FCC",
-    difficulty: "Média",
-    statement: "Assinale a alternativa que preenche correta e respectivamente as lacunas da frase: 'O relatório de auditoria foi passível _____ alterações; no entanto, o auditor manteve-se firme _____ sua decisão e insensível _____ pressões externas.'",
-    options: [
-      "A) de - em - a",
-      "B) a - de - às",
-      "C) de - em - às",
-      "D) a - em - a",
-      "E) de - com - às"
-    ],
-    correctAnswer: 2,
-    explanation: "1) 'Passível' exige a preposição 'de' ('passível de alterações'). 2) 'Firme' exige a preposição 'em' ('firme em sua decisão'). 3) 'Insensível' exige a preposição 'a' + artigo feminino plural 'as' antes de 'pressões' (= às pressões)."
-  },
-  {
-    id: 94,
-    discipline: "Língua Portuguesa",
-    topic: "Pontuação - Uso dos Parênteses e Travessões em Citações/Explicações",
-    banca: "FCC",
-    difficulty: "Média",
-    statement: "No trecho 'Os princípios orçamentários (especialmente os da unidade e da universalidade) orientam a elaboração da Lei Orçamentária Anual', o par de parênteses pode ser substituído, mantendo a correção e o sentido original, por:",
-    options: [
-      "A) duas aspas.",
-      "B) dois pontos e vírgula.",
-      "C) duas vírgulas ou dois travessões.",
-      "D) duas barras diagonais.",
-      "E) dois pontos."
-    ],
-    correctAnswer: 2,
-    explanation: "Segmentos explicativos ou parentéticos intercalados na oração podem ser isolados por par de parênteses, por par de vírgulas ou por par de travessões, sem qualquer prejuízo à gramática ou ao sentido."
-  },
-  {
-    id: 95,
-    discipline: "Língua Portuguesa",
-    topic: "Crase - Ocorrência com Pronomes Demonstrativos AQUELE/AQUELA/AQUILO",
-    banca: "FCC",
-    difficulty: "Difícil",
-    statement: "Assinale a frase em que o uso do sinal indicativo de crase está INCORRETO.",
-    options: [
-      "A) O Auditor de Finanças fez referência àquela instrução normativa expedida no ano passado.",
-      "B) A equipe de fiscalização deu atenção àquilo que constava nos livros de registro contábil.",
-      "C) O parecer técnico foi contrário àqueles argumentos apresentados pela defesa da empresa.",
-      "D) O fisco dirigiu-se à qualquer empresa que apresentasse divergências na declaração.",
-      "E) O Secretário reuniu-se àqueles diretores que solicitaram audiência especial."
-    ],
-    correctAnswer: 3,
-    explanation: "Não ocorre crase antes do pronome indefinido 'qualquer' (opção D). Nas demais alternativas, ocorre a junção da preposição 'a' (exigida pelos termos 'fazer referência a', 'dar atenção a', 'ser contrário a', 'reunir-se a') com o pronome demonstrativo iniciado por 'a' (àquela, àquilo, àqueles), tornando o uso da crase obrigatório."
-  },
-  {
-    id: 96,
-    discipline: "Língua Portuguesa",
-    topic: "Colocação Pronominal em Orações Inciadas por Palavras Atrativas",
-    banca: "FCC",
-    difficulty: "Média",
-    statement: "Assinale a opção em que a colocação pronominal atende rigorosamente às regras de próclise da norma-padrão.",
-    options: [
-      "A) Poucos auditores dedicaram-se ao exame daquelas planilhas complexas.",
-      "B) Poucos auditores se dedicaram ao exame daquelas planilhas complexas.",
-      "C) Jamais entregaria-se um documento sem a devida conferência dos dados.",
-      "D) Sempre disseram-nos que a legislação tributária passaria por reformulação.",
-      "E) As opções A e D estão corretas segundo a norma-padrão."
-    ],
-    correctAnswer: 1,
-    explanation: "O pronome indefinido 'Poucos' atua como fator de atração próclitica obrigatória ('Poucos auditores se dedicaram'). Advérbios de tempo/negação como 'Jamais' e 'Sempre' também exigem próclise ('Jamais se entregaria' / 'Sempre nos disseram'), tornando as opções C e D incorretas."
-  },
-  {
-    id: 97,
-    discipline: "Língua Portuguesa",
-    topic: "Sintaxe - Predicativo do Objeto vs Adjunto Adnominal",
-    banca: "FCC",
-    difficulty: "Difícil",
-    statement: "Na frase 'O Secretário da Fazenda julgou O RELATÓRIO TÉCNICO INCOMPLETO', o termo em destaque 'INCOMPLETO' exerce a função sintática de:",
-    options: [
-      "A) Adjunto adnominal",
-      "B) Predicativo do objeto",
-      "C) Predicativo do sujeito",
-      "D) Complemento nominal",
-      "E) Agente da passiva"
-    ],
-    correctAnswer: 1,
-    explanation: "'Julgar' é um verbo transitivo direto que exige um complemento ('o relatório técnico') e atribui a este uma característica/estado no momento da ação ('incompleto'). Por atribuir um estado ao objeto direto por meio do verbo, 'incompleto' funciona como Predicativo do Objeto."
-  },
-  {
-    id: 98,
-    discipline: "Língua Portuguesa",
-    topic: "Semântica - Relações de Sinonímia e Adequação Vocabular",
-    banca: "FCC",
-    difficulty: "Média",
-    statement: "Assinale o par de palavras que apresenta relação de SINONÍMIA no contexto da linguagem administrativa e fiscal.",
-    options: [
-      "A) Exonerar / Demitir",
-      "B) Diligência / Negligência",
-      "C) Auspicioso / Desfavorável",
-      "D) Exarar / Emitir (despacho/parecer)",
-      "E) Peremptório / Provisório"
-    ],
-    correctAnswer: 3,
-    explanation: "Na linguagem jurídica e administrativa, 'exarar' e 'emitir' são sinónimos no sentido de proferir, lavrar ou registrar por escrito um ato/despacho/parecer. A) 'Exonerar' (a pedido/de cargo em comissão) difere de 'Demitir' (punição por infração). B, C e E são pares de antónimos."
-  },
-  {
-    id: 99,
-    discipline: "Língua Portuguesa",
-    topic: "Morfologia - Emprego e Flexão do Verbo HAVER como Auxiliar",
-    banca: "FCC",
-    difficulty: "Média",
-    statement: "Assinale a opção em que o verbo HAVER foi flexionado CORRETAMENTE como auxiliar de um tempo composto.",
-    options: [
-      "A) Os auditores haviam concluído o relatório de fiscalização no prazo legal.",
-      "B) Havia muitos processos sobre a mesa do fiscal de tributos.",
-      "C) Haviam muitos processos sobre a mesa do fiscal de tributos.",
-      "D) As opções A e B estão corretas conforme a norma-padrão.",
-      "E) Nenhuma das opções anteriores está correta."
-    ],
-    correctAnswer: 3,
-    explanation: "1) Na opção A, o verbo 'haver' funciona como auxiliar de tempo composto ('haviam concluído') e deve concordar no plural com o sujeito 'Os auditores'. 2) Na opção B, o verbo 'haver' é principal e impessoal com sentido de existir ('Havia muitos processos'), devendo permanecer no singular. Portanto, A e B estão corretas nas suas respetivas funções."
-  },
-  {
-    id: 100,
-    discipline: "Língua Portuguesa",
-    topic: "Redação Oficial - Fechos de Comunicação e Estrutura Geral",
-    banca: "FCC",
-    difficulty: "Fácil",
-    statement: "Conforme as diretrizes do Manual de Redação da Presidência da República, assinale a opção que resume corretamente os dois únicos fechos oficiais padronizados para a correspondência do Poder Público.",
-    options: [
-      "A) Cordialmente, e Atenciosamente,",
-      "B) Respeitosamente, e Atenciosamente,",
-      "C) Atentamente, e Respeitosamente,",
-      "D) Com os melhores cumprimentos, e Saudações,",
-      "E) Do mesmo modo, e Respeitosamente,"
-    ],
-    correctAnswer: 1,
-    explanation: "O Manual de Redação da Presidência da República simplificou e padronizou os fechos de comunicações oficiais para apenas dois: 1) 'Respeitosamente,' para autoridades de hierarquia superior; e 2) 'Atenciosamente,' para autoridades de mesma hierarquia, inferior ou para cidadãos."
-  }
-]
- statement: "Assinale a opção em que a concordância verbal atende rigorosamente às exigências da norma-padrão da língua escrita.",
+    statement: "Assinale a opção em que a concordância verbal atende rigorosamente às exigências da norma-padrão da língua escrita.",
     options: [
       "A) Podem existir soluções mais eficientes para a modernização do Fisco.",
       "B) Podem haver soluções mais eficientes para a modernização do Fisco.",
@@ -1611,7 +1440,8 @@ const QUESTION_BANK: Question[] = [
     ],
     correctAnswer: 0,
     explanation: "A) CORRETO: o verbo 'existir' é pessoal e possui sujeito ('soluções mais eficientes'), fazendo com que o verbo auxiliar ('Podem') concorde no plural. B) Incorreto: 'haver' no sentido de existir transmite impessoalidade ao auxiliar ('Pode haver'). C) Incorreto: 'Deve haver' (sem a preposição 'de'). D) Incorreto: no tempo composto com o verbo principal 'ocorrer' (pessoal), o auxiliar 'haver' concorda no plural com o sujeito ('Haviam ocorrido'). E) Incorreto: 'fazer' indicando tempo decorrido é impessoal ('Faz dois meses')."
-  },
+  }
+
   {
     id: 83,
     discipline: "Língua Portuguesa",
@@ -1920,6 +1750,7 @@ const QUESTION_BANK: Question[] = [
     correctAnswer: 1,
     explanation: "O Manual de Redação da Presidência da República simplificou e padronizou os fechos de comunicações oficiais para apenas dois: 1) 'Respeitosamente,' para autoridades de hierarquia superior; e 2) 'Atenciosamente,' para autoridades de mesma hierarquia, inferior ou para cidadãos."
   }
+  
 ] 
 
 export default function App() {
